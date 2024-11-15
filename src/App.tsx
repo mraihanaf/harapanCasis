@@ -18,7 +18,6 @@ function App() {
     };
   return (
     <>
-    <div className="container mx-auto px-4 py-8">
       <h1 className="text-4xl font-bold text-center mb-6 text-primary">
         Harapan Casis 2025/2026
       </h1>
@@ -28,7 +27,6 @@ function App() {
           Lihat Harapan
         </Button>
       </div>
-    </div>
     <h2 className="text-3xl font-semibold text-center mb-6 text-gray-800">
         Our Memories
     </h2>
