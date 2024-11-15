@@ -17,6 +17,7 @@ function App() {
       }
     };
   return (
+    <>
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-4xl font-bold text-center mb-6 text-primary">
         Harapan Casis 2025/2026
@@ -27,10 +28,10 @@ function App() {
           Lihat Harapan
         </Button>
       </div>
-      
-      <h2 className="text-3xl font-semibold text-center mb-6 text-gray-800">
+    </div>
+    <h2 className="text-3xl font-semibold text-center mb-6 text-gray-800">
         Our Memories
-      </h2>
+    </h2>
       
       {/* Some images here*/}
       <Memories imgSrc={memories1}/>
@@ -43,8 +44,7 @@ function App() {
         {wishData.map(data => <OsisResponseCardComponent name={data.nama} kelas={data.kelas} timestamp={data.timestamp} acceptedMessage={data.masuk} notAcceptedMessage={data.keluar}        
         />)}
       </section>
-      
-    </div>
+      </>
   )
 }
 
