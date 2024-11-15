@@ -29,8 +29,8 @@ export function OsisResponseCardComponent({
           <p className="text-sm bg-green-50 p-3 rounded-md">{acceptedMessage}</p>
         </div>
         <div>
-          <h3 className="font-semibold mb-2">Kalo engga masuk❌</h3>
-          <p className="text-sm bg-red-50 p-3 rounded-md">{notAcceptedMessage}</p>
+          <h3 className="font-semibold mb-2">Kalo engga masuk😢</h3>
+          <p className="text-sm bg-blue-50 p-3 rounded-md">{notAcceptedMessage}</p>
         </div>
       </CardContent>
     </Card>
